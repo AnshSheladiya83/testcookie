@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://192.168.29.157:3001", // React frontend origin
+    origin: "https://sensational-cactus-5081cd.netlify.app", // React frontend origin
     credentials: true,
   })
 );
